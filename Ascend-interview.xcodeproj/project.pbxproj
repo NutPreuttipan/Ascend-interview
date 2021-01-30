@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		29702FE65C166337687B1603 /* Pods_Ascend_interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1056B606249C60902D57D812 /* Pods_Ascend_interview.framework */; };
-		35CDC2718EBE61F3C654713D /* Pods_Ascend_interview_Ascend_interviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4024188856FADAC522281159 /* Pods_Ascend_interview_Ascend_interviewUITests.framework */; };
 		78F286E425C2A31300A6BC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F286E325C2A31300A6BC2D /* AppDelegate.swift */; };
 		78F286E625C2A31300A6BC2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F286E525C2A31300A6BC2D /* SceneDelegate.swift */; };
 		78F286EB25C2A31300A6BC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F286E925C2A31300A6BC2D /* Main.storyboard */; };
 		78F286ED25C2A31500A6BC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F286EC25C2A31500A6BC2D /* Assets.xcassets */; };
 		78F286F025C2A31500A6BC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F286EE25C2A31500A6BC2D /* LaunchScreen.storyboard */; };
 		78F286FB25C2A31500A6BC2D /* Ascend_interviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F286FA25C2A31500A6BC2D /* Ascend_interviewTests.swift */; };
-		78F2870625C2A31500A6BC2D /* Ascend_interviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2870525C2A31500A6BC2D /* Ascend_interviewUITests.swift */; };
 		78F2872825C2AC7B00A6BC2D /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2872725C2AC7B00A6BC2D /* BaseService.swift */; };
 		78F2874125C2BB3700A6BC2D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2874025C2BB3700A6BC2D /* ProductViewController.swift */; };
 		78F2875225C2BCBA00A6BC2D /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2875025C2BCBA00A6BC2D /* ProductCollectionViewCell.swift */; };
@@ -33,13 +31,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		78F286F725C2A31500A6BC2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78F286D825C2A31300A6BC2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78F286DF25C2A31300A6BC2D;
-			remoteInfo = "Ascend-interview";
-		};
-		78F2870225C2A31500A6BC2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78F286D825C2A31300A6BC2D /* Project object */;
 			proxyType = 1;
@@ -65,9 +56,6 @@
 		78F286F625C2A31500A6BC2D /* Ascend-interviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ascend-interviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F286FA25C2A31500A6BC2D /* Ascend_interviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ascend_interviewTests.swift; sourceTree = "<group>"; };
 		78F286FC25C2A31500A6BC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78F2870125C2A31500A6BC2D /* Ascend-interviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ascend-interviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78F2870525C2A31500A6BC2D /* Ascend_interviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ascend_interviewUITests.swift; sourceTree = "<group>"; };
-		78F2870725C2A31500A6BC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F2872725C2AC7B00A6BC2D /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		78F2874025C2BB3700A6BC2D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		78F2875025C2BCBA00A6BC2D /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -102,14 +90,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78F286FE25C2A31500A6BC2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35CDC2718EBE61F3C654713D /* Pods_Ascend_interview_Ascend_interviewUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,7 +98,6 @@
 			children = (
 				78F286E225C2A31300A6BC2D /* Ascend-interview */,
 				78F286F925C2A31500A6BC2D /* Ascend-interviewTests */,
-				78F2870425C2A31500A6BC2D /* Ascend-interviewUITests */,
 				78F286E125C2A31300A6BC2D /* Products */,
 				D0111AA127A63C6756AAD5AA /* Pods */,
 				98A75D4EED48703871E9EECD /* Frameworks */,
@@ -130,7 +109,6 @@
 			children = (
 				78F286E025C2A31300A6BC2D /* Ascend-interview.app */,
 				78F286F625C2A31500A6BC2D /* Ascend-interviewTests.xctest */,
-				78F2870125C2A31500A6BC2D /* Ascend-interviewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,15 +136,6 @@
 				78F286FC25C2A31500A6BC2D /* Info.plist */,
 			);
 			path = "Ascend-interviewTests";
-			sourceTree = "<group>";
-		};
-		78F2870425C2A31500A6BC2D /* Ascend-interviewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				78F2870525C2A31500A6BC2D /* Ascend_interviewUITests.swift */,
-				78F2870725C2A31500A6BC2D /* Info.plist */,
-			);
-			path = "Ascend-interviewUITests";
 			sourceTree = "<group>";
 		};
 		78F2872225C2A42200A6BC2D /* Module */ = {
@@ -346,26 +315,6 @@
 			productReference = 78F286F625C2A31500A6BC2D /* Ascend-interviewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		78F2870025C2A31500A6BC2D /* Ascend-interviewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78F2871025C2A31500A6BC2D /* Build configuration list for PBXNativeTarget "Ascend-interviewUITests" */;
-			buildPhases = (
-				80D7B10D90197605FD40213E /* [CP] Check Pods Manifest.lock */,
-				78F286FD25C2A31500A6BC2D /* Sources */,
-				78F286FE25C2A31500A6BC2D /* Frameworks */,
-				78F286FF25C2A31500A6BC2D /* Resources */,
-				E25C026B9685FC5C2781DB59 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78F2870325C2A31500A6BC2D /* PBXTargetDependency */,
-			);
-			name = "Ascend-interviewUITests";
-			productName = "Ascend-interviewUITests";
-			productReference = 78F2870125C2A31500A6BC2D /* Ascend-interviewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -379,10 +328,6 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					78F286F525C2A31500A6BC2D = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 78F286DF25C2A31300A6BC2D;
-					};
-					78F2870025C2A31500A6BC2D = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 78F286DF25C2A31300A6BC2D;
 					};
@@ -403,7 +348,6 @@
 			targets = (
 				78F286DF25C2A31300A6BC2D /* Ascend-interview */,
 				78F286F525C2A31500A6BC2D /* Ascend-interviewTests */,
-				78F2870025C2A31500A6BC2D /* Ascend-interviewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -422,13 +366,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		78F286F425C2A31500A6BC2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78F286FF25C2A31500A6BC2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,45 +436,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ascend-interview/Pods-Ascend-interview-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		80D7B10D90197605FD40213E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Ascend-interview-Ascend-interviewUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E25C026B9685FC5C2781DB59 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ascend-interview-Ascend-interviewUITests/Pods-Ascend-interview-Ascend-interviewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ascend-interview-Ascend-interviewUITests/Pods-Ascend-interview-Ascend-interviewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ascend-interview-Ascend-interviewUITests/Pods-Ascend-interview-Ascend-interviewUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -568,14 +466,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78F286FD25C2A31500A6BC2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78F2870625C2A31500A6BC2D /* Ascend_interviewUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -583,11 +473,6 @@
 			isa = PBXTargetDependency;
 			target = 78F286DF25C2A31300A6BC2D /* Ascend-interview */;
 			targetProxy = 78F286F725C2A31500A6BC2D /* PBXContainerItemProxy */;
-		};
-		78F2870325C2A31500A6BC2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78F286DF25C2A31300A6BC2D /* Ascend-interview */;
-			targetProxy = 78F2870225C2A31500A6BC2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -815,48 +700,6 @@
 			};
 			name = Release;
 		};
-		78F2871125C2A31500A6BC2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5928DE1A0C8F7B80267FECE /* Pods-Ascend-interview-Ascend-interviewUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83SD72X346;
-				INFOPLIST_FILE = "Ascend-interviewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.preuttipan.Ascend-interviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Ascend-interview";
-			};
-			name = Debug;
-		};
-		78F2871225C2A31500A6BC2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD5A5A8D08D9150FE3147F2C /* Pods-Ascend-interview-Ascend-interviewUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83SD72X346;
-				INFOPLIST_FILE = "Ascend-interviewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.preuttipan.Ascend-interviewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Ascend-interview";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -883,15 +726,6 @@
 			buildConfigurations = (
 				78F2870E25C2A31500A6BC2D /* Debug */,
 				78F2870F25C2A31500A6BC2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78F2871025C2A31500A6BC2D /* Build configuration list for PBXNativeTarget "Ascend-interviewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78F2871125C2A31500A6BC2D /* Debug */,
-				78F2871225C2A31500A6BC2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
