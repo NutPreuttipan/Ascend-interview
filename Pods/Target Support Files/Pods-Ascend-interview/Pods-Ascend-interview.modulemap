@@ -1,0 +1,6 @@
+framework module Pods_Ascend_interview {
+  umbrella header "Pods-Ascend-interview-umbrella.h"
+
+  export *
+  module * { export * }
+}
