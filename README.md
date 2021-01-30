@@ -2,9 +2,8 @@
 This repository make for interview with Ascend Group Co., Ltd.
 
 
-# Install and Run
+# Clone and Install dependencies
 
-### Clone
 clone the repitory from GitHub
 
     git clone https://github.com/NutPreuttipan/Pantip-Interview.git
